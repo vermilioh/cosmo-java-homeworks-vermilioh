@@ -11,10 +11,5 @@ public class ExC {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
 
-        // Разбиваем строку на слова по пробелам
-        String[] words = input.split("\\s+");
-
-        // Выводим количество слов
-        System.out.println("Количество слов: " + words.length);
     }
 }

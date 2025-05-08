@@ -11,12 +11,5 @@ public class ExD {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
 
-        // Преобразуем строку в массив символов
-        char[] chars = input.toCharArray();
-
-        // Выводим каждый символ
-        for (char c : chars) {
-            System.out.println(c);
-        }
     }
 }
