@@ -10,6 +10,16 @@ package homeworks.java.cosmo.string;
 public class ExJ {
     public static void main(String[] args) {
         String[] input = {"Дом", "Стена", "Машина", "Телефон", "Кот", "Микроволновка", "Деньги", "Яхта" };
+        int maxLength = 0;
+        int maxIndex = 0;
+        for(int i = 0; i < input.length; i++ ){
+            int currentLength = input[i].length();
+            if(currentLength > maxLength){
+                maxLength = currentLength;
+                maxIndex = i;
+            }
+        }
+        System.out.println(input[maxIndex]);
 
     }
 }
